@@ -11,13 +11,14 @@ import UIKit
 class ViewController: UIViewController {
     
     var myTimer = Timer()
-    var chack = false
     @IBOutlet weak var aSS: UISwitch!
     @IBOutlet weak var mylbl: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+       // aSS.isOn = false
+        // 같은것.
         aSS.setOn(false, animated: true)
         
 //        myTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector:
